@@ -1,9 +1,9 @@
-output "infra_internal_subnet_id" {
-  value = "${aws_subnet.infra_internal.id}"
+output "infra_internal_subnet" {
+  value = "${aws_subnet.infra_internal}"
 }
 
-output "infra_external_subnet_id" {
-  value = "${aws_subnet.infra_external.id}"
+output "infra_external_subnet" {
+  value = "${aws_subnet.infra_external}"
 }
 
 output "vpc_infra_id" {
